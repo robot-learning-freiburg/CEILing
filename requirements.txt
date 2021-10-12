@@ -1,0 +1,10 @@
+numpy
+cffi==1.14.2
+Pillow
+pyquaternion
+html-testRunner
+setuptools
+natsort
+matplotlib
+wandb
+pynput
