@@ -55,7 +55,7 @@ To use this repository, you can run the following scripts:
 
 - Training a CEILing policy:  
     ```bash
-    python src/feedback_train.py --task CloseMicrowave --feedback_type ceiling_01
+    python src/feedback_train.py --task CloseMicrowave --feedback_type ceiling_full
     ```
 
 - Training Behavior Cloning policy:  
@@ -65,7 +65,7 @@ To use this repository, you can run the following scripts:
 
 - Evaluating a CEILing policy:  
     ```bash
-    python src/evaluate.py --task CloseMicrowave --feedback_type ceiling_01
+    python src/evaluate.py --task CloseMicrowave --feedback_type ceiling_full
     ```
 
 For an overview of all the option each script can be run with, you can use the --help flag:  

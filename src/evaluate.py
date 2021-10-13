@@ -50,7 +50,7 @@ if __name__ == "__main__":
         "-f",
         "--feedback_type",
         dest="feedback_type",
-        default="ceiling_01",
+        default="ceiling_full",
         help="options: cloning_10, cloning_100, evaluative, dagger, iwr, ceiling_full, ceiling_partial",
     )
     parser.add_argument(
