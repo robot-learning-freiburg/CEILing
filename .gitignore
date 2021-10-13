@@ -48,7 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 *.pdf
-*.png
 
 # VSCode
 **/.vscode/**
